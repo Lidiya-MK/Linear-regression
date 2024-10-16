@@ -1,15 +1,35 @@
-﻿# Linear-regression
+# Linear Regression
 
-This file shows how different values of weight and baise affect the line that we fit into the data.
-- Below is the data distribution of the sample I created
-![image](https://github.com/user-attachments/assets/c07b8e18-3f20-451e-aa0e-32400384dedc)
--This is what happens with weight 3 and biase 3.5
-![image](https://github.com/user-attachments/assets/e091fa09-e406-4c27-a85a-f5f8df6bb0aa)
+This project demonstrates how different values of **weight** and **bias** affect the line that we fit to the data using simple linear regression.
 
--This is what happens with weight 3.5 and biase 4
-![image](https://github.com/user-attachments/assets/dd9e269d-6ab3-4329-9d41-d9defca76042)
+## Data Distribution
 
-feel free to play around with the weight and biase to see how different values affect the plot. I will be adding cost function and gradient descent soon 
+Below is the data distribution of the sample I created:
 
+![Data Distribution](https://github.com/user-attachments/assets/c07b8e18-3f20-451e-aa0e-32400384dedc)
 
+## Line Fitting with Different Parameters
 
+### Weight = 3, Bias = 3.5
+
+This is what happens when the weight is 3 and the bias is 3.5:
+
+![Weight 3, Bias 3.5](https://github.com/user-attachments/assets/e091fa09-e406-4c27-a85a-f5f8df6bb0aa)
+
+### Weight = 3.5, Bias = 4
+
+This is the result when the weight is 3.5 and the bias is 4:
+
+![Weight 3.5, Bias 4](https://github.com/user-attachments/assets/dd9e269d-6ab3-4329-9d41-d9defca76042)
+
+## Try it Yourself!
+
+Feel free to play around with the **weight** and **bias** values to see how different parameters affect the plot. 
+
+## Upcoming Features
+
+I will be adding the following soon:
+- **Cost Function**: To evaluate how well the line fits the data.
+- **Gradient Descent**: To optimize the weight and bias values.
+
+Stay tuned for updates!
